@@ -73,24 +73,24 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="/lab3/ci4/public/home/" class="logo">
                         <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="index.html">Services</a></li>
-                      <li><a href="index.html">Projects</a></li>
+                      <li><a href="/lab3/ci4/public/home/">Home</a></li>
+                      <li><a href="/lab3/ci4/public/home/">Services</a></li>
+                      <li><a href="/lab3/ci4/public/home/">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
-                              <li><a href="about.html">Playlist</a></li>
-                              <li><a href="resources.html">More</a></li>
+                              <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
+                              <li><a href="/lab3/ci4/public/resources/">More</a></li>
                           </ul>
                       </li>
-                      <li><a href="index.html">Infos</a></li>
-                      <li><a href="index.html">Contact</a></li>
+                      <li><a href="/lab3/ci4/public/home/">Infos</a></li>
+                      <li><a href="/lab3/ci4/public/home/">Contact</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

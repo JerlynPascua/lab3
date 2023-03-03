@@ -72,20 +72,20 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="/lab3/ci4/public/home/" class="logo">
                         <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/" class="active">Home</a></li>
                       <li class="scroll-to-section"><a href="#services">Services</a></li>
                       <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
-                              <li><a href="about.html">Playlist</a></li>
-                              <li><a href="resources.html">More</a></li>
+                              <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
+                              <li><a href="/lab3/ci4/public/resources">More</a></li>
                           </ul>
                       </li>
                       <li class="scroll-to-section"><a href="#infos">Infos</a></li>
@@ -282,6 +282,7 @@
   <div class="contact-us section" id="contact">
     <div class="container">
       <div class="row">
+	  
         <div class="col-lg-12">
           <div class="contact-us-content">
             <div class="row">
@@ -295,39 +296,16 @@
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">
-                        <h2><em>Contact Me</em> &amp; Get In <span>Touch</span></h2>
+                        <h2 class="col-lg-12"><em>Contact Me</em> &amp; Get In <span>Touch</span></h2>
                       </div>
                     </div>
-                    <div class="col-lg-6">
-                      <fieldset>
-                        <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-6">
-                      <fieldset>
-                        <input type="surname" name="surname" id="surname" placeholder="Your Surname..." autocomplete="on" required>
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-6">
-                      <fieldset>
-                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-6">
-                      <fieldset>
-                        <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
-                      </fieldset>
-                    </div>
+                    
                     <div class="col-lg-12">
-                      <fieldset>
-                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
-                      </fieldset>
-                    </div>
+                     
+                        <div class="second-button"><a href="/lab3/ci4/public/connect/" >Send Message Now</a></div>
+					   
+					</div>
+					
                   </div>
                 </form>
                 <div class="more-info">
@@ -357,6 +335,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>

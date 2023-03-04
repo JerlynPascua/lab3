@@ -12,7 +12,7 @@ class Comments extends BaseController
 
 		$data = [
             'comments'  => $model->getComments(),
-            'title' => 'Guestbook',
+            'title' => 'Comment Section',
         ];
 
         return view('templates/header', $data)

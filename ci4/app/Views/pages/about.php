@@ -66,7 +66,7 @@
   </div>
   <!-- ***** Pre-Header Area End ***** -->
 
-  <!-- ***** Header Area Start ***** -->
+   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
         <div class="row">
@@ -80,8 +80,8 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="/lab3/ci4/public/home/">Home</a></li>
-                      <li><a href="/lab3/ci4/public/home/">Services</a></li>
-                      <li><a href="/lab3/ci4/public/home/">Projects</a></li>
+                      <li><a href="/lab3/ci4/public/home/#services">Viewpoint</a></li>
+                      <li><a href="/lab3/ci4/public/home/#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
@@ -89,8 +89,8 @@
                               <li><a href="/lab3/ci4/public/resources/">More</a></li>
                           </ul>
                       </li>
-                      <li><a href="/lab3/ci4/public/home/">Infos</a></li>
-                      <li><a href="/lab3/ci4/public/home/">Contact</a></li>
+                      <li><a href="/lab3/ci4/public/home/#infos">Infos</a></li>
+                      <li><a href="/lab3/ci4/public/home/#contacts">Contact</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

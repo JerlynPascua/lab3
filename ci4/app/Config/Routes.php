@@ -33,6 +33,11 @@ $routes->get('/', 'Home::index');
 
 use App\Controllers\News;
 use App\Controllers\Pages;
+use App\Controllers\Comments;
+
+
+$routes->match(['get', 'post'], 'comments', [Comments::class, 'index']);
+$routes->get('comments', [Comments::class, 'index']);
 
 $routes->match(['get', 'post'], 'news/create', [News::class, 'create']);
 $routes->get('news/(:segment)', [News::class, 'view']);

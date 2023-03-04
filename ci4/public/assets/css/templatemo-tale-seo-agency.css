@@ -167,6 +167,27 @@ body {
   opacity: 0.8;
 }
 
+.last-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #5b03e4;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.last-button a:hover {
+  background-color: #5b03e4;
+  color: #fff;
+  opacity: 0.8;
+}
+
 .section {
   padding-top: 30px;
   margin-top: 90px;
@@ -202,6 +223,8 @@ body {
 .section-heading h2 span {
   color: #c03afe;
 }
+
+
 
 /* 
 ---------------------------------------------
@@ -889,6 +912,8 @@ Banner Style
 .main-banner .second-button {
   display: inline-block;
 }
+
+
 
 /* 
 ---------------------------------------------

@@ -113,7 +113,6 @@
             <h4>My <em>Example Portfolio</em><br>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧<span>WEBPROG</span></h4>
             <p>This is a modified template website with 3 HTML pages in completion to my subject course WEBPROG,to view more be directed to - <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
             <div class="main-button scroll-to-section"><a href="#services">Discover More</a></div>
-            <span>or</span>
             <div class="second-button"><a href="faqs.html">Check our FAQs</a></div>
           </div>
         </div>
@@ -292,7 +291,7 @@
 				</div>
               </div>
               <div class="col-lg-8">
-                <form id="contact-form" action="" method="post">
+                <form id="contact-form" action="/lab3/ci4/public/comments/" method="post">
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">
@@ -302,7 +301,7 @@
                     
                     <div class="col-lg-12">
                      
-                        <div class="second-button"><a href="/lab3/ci4/public/connect/" >Send Message Now</a></div>
+                        <div class="last-button"><a href="/lab3/ci4/public/comments/" >Send Message Now</a></div>
 					   
 					</div>
 					

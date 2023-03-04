@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\CommentsModel;
+use App\Models\GuestModel;
 
 class Comments extends BaseController
 {
@@ -10,32 +10,26 @@ class Comments extends BaseController
     {
         $model = model(CommentsModel::class);
 
-         $data = [
+		$data = [
             'comments'  => $model->getComments(),
-            'title' => 'Comment Section',
+            'title' => 'Guestbook',
         ];
 
         return view('templates/header', $data)
-           . view('comments/index')
-          . view('templates/footer');        
-
-
-
-  //      $data = [
-     //       'comments'  => $model->getComments(),
-      //      'title' => 'Comment Section',
-     //   ];
-
-	           public function create()
+             . view('comments/index')
+             . view('templates/footer');
+    }
+	
+	public function create()
     {
         helper('form');
-	    
+
         // Checks whether the form is submitted.
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.
-            return view('templates/header', $data)
-            . view('comments/index')
-            . view('templates/footer');
+            return view('templates/header', ['title' => 'Create a comments entry'])
+                . view('comments/create')
+                . view('templates/footer');
         }
 
         $post = $this->request->getPost(['name', 'surname', 'email', 'subject', 'message']);
@@ -44,35 +38,28 @@ class Comments extends BaseController
         if (! $this->validateData($post, [
             'name' => 'required|max_length[255]|min_length[3]',
             'surname' => 'required|max_length[255]|min_length[3]',
-            'email' => 'required|max_length[255]|min_length[3]',
-            'subject'  => 'required|max_length[5000]|min_length[1]',
-	    'message'  => 'required|max_length[5000]|min_length[1]',
+            'email' => 'required|max_length[255]|min_length[3]',			
+            'subject'  => 'required|max_length[5000]|min_length[3]',
+            'message' => 'required|max_length[5000]|min_length[3]',			
         ])) {
             // The validation fails, so returns the form.
-            return view('templates/header', $data)
-            . view('comments/index')
-            . view('templates/footer');
+            return view('templates/header', ['title' => 'Add a comments entry'])
+                . view('comments/create')
+                . view('templates/footer');
         }
 
-        $date = date('F j, Y g:i a');
-
-        
+        $model = model(GuestModel::class);
 
         $model->save([
             'name' => $post['name'],
-            'surname' => $post['surname'],
-            'email' => $post['email'],
+            'surname'  => $post['surname'],
+            'email'  => $post['email'],
             'subject'  => $post['subject'],
-			'message'  => $post['comment'],
-            
+            'messasge'  => $post['message'],
         ]);
 
-        return view('templates/header', $data)
-        . view('comments/success')
-        . view('templates/footer');
-        //end of create
-        
-        }//index
-
-    
-    }//class
+        return view('templates/header', ['title' => 'Add a comments Entry'])
+            . view('comments/success')
+            . view('templates/footer');
+    }
+}	

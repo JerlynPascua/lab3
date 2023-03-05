@@ -89,7 +89,7 @@
             <?= session()->getFlashdata('error') ?>
             <?= validation_list_errors() ?>
  
-                <form id="contact-form" action="/lab3/ci4/public/comments" method="post">
+                <form id="contact-form" action="/~jppascua/lab3/ci4/public/comments" method="post">
 				<?= csrf_field() ?>
 				
 			  

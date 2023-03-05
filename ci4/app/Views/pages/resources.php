@@ -76,24 +76,24 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="/lab3/ci4/public/home/" class="logo">
+                    <a href="/~jppascua/lab3/ci4/public/home/" class="logo">
                         <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="/lab3/ci4/public/home/">Home</a></li>
-                      <li><a href="/lab3/ci4/public/home/#services">My information</a></li>
-                      <li><a href="/lab3/ci4/public/home/#projects">Projects</a></li>
+                      <li><a href="/~jppascua/lab3/ci4/public/home/">Home</a></li>
+                      <li><a href="/~jppascua/lab3/ci4/public/home/#services">My information</a></li>
+                      <li><a href="/~jppascua/lab3/ci4/public/home/#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
-							  <li><a href="/lab3/ci4/public/resources/">More</a></li>
-                              <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
+							  <li><a href="/~jppascua/lab3/ci4/public/resources/">More</a></li>
+                              <li><a href="/~jppascua/lab3/ci4/public/about/">Playlist</a></li>
                           </ul>
                       </li>
-                      <li><a href="/lab3/ci4/public/home/#infos">Infos</a></li>
-                      <li><a href="/lab3/ci4/public/home/#contacts">Contact</a></li>
+                      <li><a href="/~jppascua/lab3/ci4/public/home/#infos">Infos</a></li>
+                      <li><a href="/~jppascua/lab3/ci4/public/home/#contacts">Contact</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -243,7 +243,7 @@
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="/lab3/ci4/public/comments/">Contact Me Now!</a>
+            <a href="/~jppascua/lab3/ci4/public/comments/">Contact Me Now!</a>
           </div>
         </div>
       </div>

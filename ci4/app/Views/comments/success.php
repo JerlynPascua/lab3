@@ -19,7 +19,7 @@
     <h1>Comment posted successfully!</h1>
 	<br></br>
 	<br></br>
-   <div class="last-button"><a href="/lab3/ci4/public/comments/" >back home</a></div>
+   <div class="last-button"><a href="/~jppascua/lab3/ci4/public/comments/" >back home</a></div>
 </div>
 
 

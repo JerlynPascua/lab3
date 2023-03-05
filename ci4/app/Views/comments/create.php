@@ -86,7 +86,7 @@
 				</div>
               </div>
               <div class="col-lg-8">
-                <form id="contact-form" action="/lab3/ci4/public/comments" method="post">
+                <form id="contact-form" action="/~jppascua/lab3/ci4/public/comments" method="post">
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">

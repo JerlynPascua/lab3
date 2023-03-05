@@ -72,13 +72,13 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="/lab3/ci4/public/home/" class="logo">
+                    <a href="/~jppascua/lab3/ci4/public/home/" class="logo">
                         <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/" class="active">Home</a></li>
                       <li class="scroll-to-section"><a href="#services">My Information</a></li>
                       <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                       <li class="has-sub">
@@ -306,7 +306,7 @@
                     
                     <div class="col-lg-12">
 					  
-                        <div class="last-button"><a href="/lab3/ci4/public/comments/" >Send Message Now</a></div>
+                        <div class="last-button"><a href="/~jppascua/lab3/ci4/public/comments/" >Send Message Now</a></div>
 					</div>
 					
                   </div>

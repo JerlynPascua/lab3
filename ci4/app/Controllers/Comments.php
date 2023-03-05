@@ -24,6 +24,11 @@ class Comments extends BaseController
     {
         helper('form');
 
+     $data = [
+      'comments'  => $model->getComments(),
+    'title' => 'Comment Section',
+ ];
+
         // Checks whether the form is submitted.
         if (! $this->request->is('post')) {
             // The form is not submitted, so returns the form.

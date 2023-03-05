@@ -51,7 +51,7 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="/lab3/ci4/public/home/" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#services">Viewpoint</a></li>
+                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#services">My Information</a></li>
                       <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
@@ -85,11 +85,11 @@
               </div>
               <div class="col-lg-8">
 			  
-			  			<h1>Post your comment here</h1>
+			  			
             <?= session()->getFlashdata('error') ?>
             <?= validation_list_errors() ?>
  
-                <form id="contact-form" action="/lab3/ci4/public/comments/" method="post">
+                <form id="contact-form" action="/lab3/ci4/public/comments" method="post">
 				<?= csrf_field() ?>
 				
 			  
@@ -97,7 +97,7 @@
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">
-                        <h2><em>Contact Me</em> &amp; Get In <span>Touch</span></h2>
+                        <h2><em>Comments</em> &amp;  <span>Suggestions</span></h2>
                       </div>
                     </div>
 					
@@ -127,12 +127,13 @@
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <textarea style="resize: none;" name="comment" rows="6" placeholder="Your Message"><?= set_value('message') ?></textarea>
+                        <textarea style="resize: none;" name="message" rows="6" placeholder="Your Message"><?= set_value('message') ?></textarea>
                       </fieldset>
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
                         <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+						
                       </fieldset>
                     </div>
                   </div>
@@ -170,22 +171,31 @@
 
 
  <div class="contact-us section" id="contact">
+ 
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="contact-us-content">
             <div class="row">
-			 <div class="col-lg-4">
+			<div class="section-heading">
+               <h2><em>Comments</em> &amp;  <span>Suggestions</span></h2>
+			   <img src="assets/images/divider2.png" alt="" style="max-height: 60px;">
+            </div>
+			
+			<br></br>
+			<br></br>
+			<br></br>
 			  <?php if (! empty($comments) && is_array($comments)): ?>
 
                         <?php foreach ($comments as $comment): ?>
-
+ 
                             <div class="portfolio-box">
-                                <h3><?= esc($comment['name']) ?></h3>
-								<h3><?= esc($comment['surname']) ?></h3>
-                                <p><?= esc($comment['email']) ?></p><br>
-                                <p><?= esc($comment['subject']) ?></p><br>
-                              
+                                <h3><?= esc($comment['name']) ?> <?= esc($comment['surname']) ?></h3>
+                                <h5><em><?= esc($comment['email']) ?></em></h5><br>
+								<p><em>Comments : </em></p>
+                                <p><?= esc($comment['subject']) ?></p>
+								<p><?= esc($comment['message']) ?></p><br>
+                              <img src="assets/images/divider.png" alt="">
                         
                             </div>
                             <br>
@@ -199,7 +209,7 @@
                         <p>Nothing to see here yet.</p>
 
                         <?php endif ?>
-			 </div>
+			 
 			</div>
 		  </div>
 		</div>

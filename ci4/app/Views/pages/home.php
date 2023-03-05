@@ -79,13 +79,13 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="/lab3/ci4/public/home/" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="#services">Services</a></li>
+                      <li class="scroll-to-section"><a href="#services">My Information</a></li>
                       <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
+						      <li><a href="/lab3/ci4/public/resources">More</a></li>
                               <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
-                              <li><a href="/lab3/ci4/public/resources">More</a></li>
                           </ul>
                       </li>
                       <li class="scroll-to-section"><a href="#infos">Infos</a></li>
@@ -110,10 +110,10 @@
             <h6>Jerlyn Camille Pascua</h6>
 			<h6>BSIT MI 211</h6>
             <div class="line-dec"></div>
-            <h4>My <em>Example Portfolio</em><br>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧<span>WEBPROG</span></h4>
-            <p>This is a modified template website with 3 HTML pages in completion to my subject course WEBPROG,to view more be directed to - <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
+            <h4>My <em>Webprog Portfolio</em><br>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧<span>HOORAY!</span></h4>
+            <p>This is a modified template website with 3 HTML pages in completion to my subject course WEBPROG,to view more be directed to - <a href="/lab3/ci4/public/home/">Home</a>, <a href="/lab3/ci4/public/about/">personal playlist</a>, and <a href="/lab3/ci4/public/resources/">Resources</a>.</p>
             <div class="main-button scroll-to-section"><a href="#services">Discover More</a></div>
-            <div class="second-button"><a href="faqs.html">Check our FAQs</a></div>
+            <div class="second-button"><a href="/lab3/ci4/public/resources/">My Resources</a></div>
           </div>
         </div>
       </div>
@@ -138,7 +138,7 @@
                 <div class="icon">
                   <img src="assets/images/services-01.jpg" alt="" class="templatemo-feature">
                 </div>
-                <h4>I go to school at Asia Pacific College</h4>
+                <h4>I am a college student at Asia Pacific College</h4>
               </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -146,7 +146,7 @@
                 <div class="icon">
                   <img src="assets/images/services-02.jpg" alt="" class="templatemo-feature">
                 </div>
-                <h4>Asia Pacific College is related to National University</h4>
+                <h4>I accept freelance work on making modifying web design pages</h4>
               </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -154,7 +154,7 @@
                 <div class="icon">
                   <img src="assets/images/services-03.jpg" alt="" class="templatemo-feature">
                 </div>
-                <h4>I wish to learn more about website making</h4>
+                <h4>I am more fond of web design</h4>
               </div>
             </div>
             <div class="col-lg-6 col-sm-6">
@@ -162,7 +162,7 @@
                 <div class="icon">
                   <img src="assets/images/services-04.jpg" alt="" class="templatemo-feature">
                 </div>
-                <h4>I hope to build connections of information through website</h4>
+                <h4>I am active in numerous school organizations</h4>
               </div>
             </div>
           </div>
@@ -278,6 +278,8 @@
     </div>
   </div>
 
+
+
   <div class="contact-us section" id="contact">
     <div class="container">
       <div class="row">
@@ -290,7 +292,10 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.1900774536175!2d121.01912631582154!3d14.531117582669072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c93018658925%3A0x6de8e16ad051b59e!2sAsia%20Pacific%20College!5e0!3m2!1sen!2sph!4v1672363232448!5m2!1sen!2sph" width="100%" height="670px" frameborder="0" style="border:0; border-radius: 23px;" allowfullscreen=""></iframe>
 				</div>
               </div>
+
               <div class="col-lg-8">
+			  <br></br>
+			  <br></br>
                 <form id="contact-form" action="/lab3/ci4/public/comments/" method="post">
                   <div class="row">
                     <div class="col-lg-12">
@@ -300,9 +305,8 @@
                     </div>
                     
                     <div class="col-lg-12">
-                     
+					  
                         <div class="last-button"><a href="/lab3/ci4/public/comments/" >Send Message Now</a></div>
-					   
 					</div>
 					
                   </div>

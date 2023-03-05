@@ -83,17 +83,17 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li><a href="/lab3/ci4/public/home/">Home</a></li>
-                      <li><a href="/lab3/ci4/public/home/">Services</a></li>
-                      <li><a href="/lab3/ci4/public/home/">Projects</a></li>
+                      <li><a href="/lab3/ci4/public/home/#services">My information</a></li>
+                      <li><a href="/lab3/ci4/public/home/#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
+							  <li><a href="/lab3/ci4/public/resources/">More</a></li>
                               <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
-                              <li><a href="/lab3/ci4/public/resources/">More</a></li>
                           </ul>
                       </li>
-                      <li><a href="/lab3/ci4/public/home/">Infos</a></li>
-                      <li><a href="/lab3/ci4/public/home/">Contact</a></li>
+                      <li><a href="/lab3/ci4/public/home/#infos">Infos</a></li>
+                      <li><a href="/lab3/ci4/public/home/#contacts">Contact</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -177,7 +177,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+      <!--  <div class="col-lg-6"> -->
           <div class="accordions is-first-expanded">
             <article class="accordion">
               <div class="accordion-head">
@@ -231,50 +231,9 @@
                 </div>
             </div>
           </article>
-        </div>
+      <!--  </div> -->
       </div>
-      <div class="col-lg-6">
-        <div class="get-free-quote">
-          <form id="free-quote" method="submit" role="search" action="#">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-heading">
-                  <h2>Get a <em>Free Quote</em> Now</h2>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail" required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="website" name="website" id="website" placeholder="Website URL" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="phone-number" name="phone-number" id="phone-number" placeholder="Phone Number" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="full-name" name="full-name" id="full-name" placeholder="Full Name" autocomplete="on" >
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="orange-button">Get Your Free Quote</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-
+      
 
   <div class="cta section">
     <div class="container">
@@ -284,7 +243,7 @@
         </div>
         <div class="col-lg-4">
           <div class="main-button">
-            <a href="/lab3/ci4/public/connect/">Contact Me Now!</a>
+            <a href="/lab3/ci4/public/comments/">Contact Me Now!</a>
           </div>
         </div>
       </div>

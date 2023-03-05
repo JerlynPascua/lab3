@@ -53,7 +53,7 @@
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                       <li class="scroll-to-section"><a href="/lab3/ci4/public/home/" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#services">Viewpoint</a></li>
+                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#services">My Information</a></li>
                       <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
@@ -86,7 +86,7 @@
 				</div>
               </div>
               <div class="col-lg-8">
-                <form id="contact-form" action="success" method="post">
+                <form id="contact-form" action="/lab3/ci4/public/comments" method="post">
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">

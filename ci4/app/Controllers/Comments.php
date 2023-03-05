@@ -10,18 +10,18 @@ class Comments extends BaseController
     {
         $model = model(CommentsModel::class);
 
-		$data = [
-            'comments'  => $model->getComments(),
-            'title' => 'Comment Section',
-        ];
+	//	$data = [
+    //        'comments'  => $model->getComments(),
+    //        'title' => 'Comment Section',
+    //    ];
 
-        return view('templates/header', $data)
-             . view('comments/index')
-             . view('templates/footer');
+    //    return view('templates/header', $data)
+    //         . view('comments/index')
+    //         . view('templates/footer');
     }
 	
-	public function create()
-    {
+//	public function create()
+ //   {
         helper('form');
 
      $data = [

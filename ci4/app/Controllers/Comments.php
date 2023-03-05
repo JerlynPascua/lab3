@@ -32,7 +32,7 @@ class Comments extends BaseController
             . view('templates/footer');
         }
 
-        $post = $this->request->getPost(['name', 'surname', 'email', 'subject', 'comment']);
+        $post = $this->request->getPost(['name', 'surname', 'email', 'subject', 'message']);
 
         // Checks whether the submitted data passed the validation rules.
         if (! $this->validateData($post, [
@@ -40,7 +40,7 @@ class Comments extends BaseController
             'surname' => 'required|max_length[255]|min_length[3]',
             'email' => 'required|max_length[255]|min_length[3]',
             'subject'  => 'required|max_length[5000]|min_length[1]',
-			 'comment'  => 'required|max_length[5000]|min_length[1]',
+	    'message'  => 'required|max_length[5000]|min_length[1]',
         ])) {
             // The validation fails, so returns the form.
             return view('templates/header', $data)
@@ -54,7 +54,7 @@ class Comments extends BaseController
             'surname' => $post['surname'],
             'email' => $post['email'],
             'subject'  => $post['subject'],
-			'comment'  => $post['comment'],
+			'message'  => $post['message'],
 
         ]);
 

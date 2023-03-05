@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\GCommentsModel;
+use App\Models\CommentsModel;
 
 class Comments extends BaseController
 {

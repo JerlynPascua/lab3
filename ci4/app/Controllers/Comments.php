@@ -18,7 +18,7 @@ class Comments extends BaseController
     //    return view('templates/header', $data)
     //         . view('comments/index')
     //         . view('templates/footer');
-    }
+    
 	
 //	public function create()
  //   {

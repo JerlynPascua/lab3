@@ -7,27 +7,22 @@ use App\Models\CommentsModel;
 class Comments extends BaseController
 {
     public function index()
-    {
+       {
         $model = model(CommentsModel::class);
 
-         $data = [
-            'comments'  => $model->getComments(),
-            'title' => 'Comment Section',
-        ];
+        // $data = [
+        //     'comments'  => $model->getComments(),
+        //     'title' => 'Comment Section',
+        // ];
 
-        return view('templates/header', $data)
-           . view('comments/index')
-          . view('templates/footer');        
+        // return view('templates/header', $data)
+        //     . view('comments/index')
+        //     . view('templates/footer');        
 
-
-
-
-
-	//           public function create()
-   // {
+        //create function
         helper('form');
-	    
-		   $data = [
+
+        $data = [
            'comments'  => $model->getComments(),
            'title' => 'Comment Section',
        ];

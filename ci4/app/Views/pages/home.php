@@ -84,8 +84,8 @@
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
-						      <li><a href="/lab3/ci4/public/resources">More</a></li>
-                              <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
+						      <li><a href="/~jppascua/lab3/ci4/public/resources">More</a></li>
+                              <li><a href="/~jppascua/lab3/ci4/public/about/">Playlist</a></li>
                           </ul>
                       </li>
                       <li class="scroll-to-section"><a href="#infos">Infos</a></li>

@@ -44,24 +44,24 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="/lab3/ci4/public/home/" class="logo">
+                    <a href="/~jppascua/lab3/ci4/public/home/" class="logo">
                         <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/" class="active">Home</a></li>
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#services">My Information</a></li>
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#projects">Projects</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/#services">My Information</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
-                              <li><a href="/lab3/ci4/public/about/">Playlist</a></li>
-                              <li><a href="/lab3/ci4/public/resources">More</a></li>
+                              <li><a href="/~jppascua/lab3/ci4/public/about/">Playlist</a></li>
+                              <li><a href="/~jppascua/lab3/ci4/public/resources">More</a></li>
                           </ul>
                       </li>
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#infos">Infos</a></li>
-                      <li class="scroll-to-section"><a href="/lab3/ci4/public/home/#contact">Contact</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/#infos">Infos</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/#contact">Contact</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

@@ -24,8 +24,7 @@
   </head>
 
 <body>
-
-  <!-- ***** Preloader Start ***** -->
+ <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
@@ -66,18 +65,7 @@
   </div>
   <!-- ***** Pre-Header Area End ***** -->
 
-   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="/lab3/ci4/public/home/" class="logo">
-                        <img src="assets/images/logo.png" alt="" style="max-width: 112px;">
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Header Area Start ***** -->
+  <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
         <div class="row">

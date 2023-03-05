@@ -24,7 +24,7 @@
 
 <body>
 
-  <!-- *** <!-- ***** Preloader Start ***** -->
+  <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
       <span class="dot"></span>
@@ -38,7 +38,7 @@
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Pre-Header Area Start ***** -->
-  <div class="pre-header" id="top">
+  <div class="pre-header">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-9">
@@ -78,18 +78,18 @@
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="/~jppascua/lab3/ci4/public/home/">Home</a></li>
-                      <li><a href="/~jppascua/lab3/ci4/public/home/#services">My information</a></li>
-                      <li><a href="/~jppascua/lab3/ci4/public/home/#projects">Projects</a></li>
+                      <li class="scroll-to-section"><a href="/~jppascua/lab3/ci4/public/home/" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="#services">My Information</a></li>
+                      <li class="scroll-to-section"><a href="#projects">Projects</a></li>
                       <li class="has-sub">
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
-							  <li><a href="/~jppascua/lab3/ci4/public/resources/">More</a></li>
+						      <li><a href="/~jppascua/lab3/ci4/public/resources">More</a></li>
                               <li><a href="/~jppascua/lab3/ci4/public/about/">Playlist</a></li>
                           </ul>
                       </li>
-                      <li><a href="/~jppascua/lab3/ci4/public/home/#infos">Infos</a></li>
-                      <li><a href="/~jppascua/lab3/ci4/public/home/#contacts">Contact</a></li>
+                      <li class="scroll-to-section"><a href="#infos">Infos</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Contact</a></li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

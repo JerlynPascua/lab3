@@ -24,7 +24,7 @@ class Comments extends BaseController
 
 
 	//           public function create()
-    {
+   // {
         helper('form');
 	    
 		   $data = [
